@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+h1{
+    font-size: 40px;
+    width: 100%;
+    height:100px ;
+    background-image: linear-gradient(rgb(233, 169, 169),rgb(169, 169, 231),rgb(176, 145, 86));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choices{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.choice{
+
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+img{
+    /* border: 5px solid red; */
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    
+    object-fit: cover;
+    
+}
+img:hover{
+    border: 11px solid black;
+    
+    border-radius: 50%;
+   
+    width: 205px;
+    height: 205px;
+  cursor: pointer;
+    object-fit: cover;
+
+}
+
+
+.scorecard{
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+   
+   
+}
+.score{
+    margin: 40px;
+
+
+}
+.messege{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.messege p{
+    display: flex;
+    justify-content: center;
+    width: 425px;
+    height: 50px;
+    
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+@media(max-width:600px){
+    body{
+        /* width: 100vw; */
+        overflow: hidden;
+        /* object-fit: cover; */
+
+    }
+    h1{
+        width:100vw;
+        height: 105px;
+        font-size: 30px;
+    background-image: linear-gradient(rgb(233, 169, 169),rgb(169, 169, 231),rgb(176, 145, 86));
+    display: flex;
+ 
+    align-items: center;
+    }
+    .choices{
+        width: 91%;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .choice{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    img{
+        width: 90px;
+        height: 90px;
+    
+        border-radius: 50%;
+        
+        object-fit: cover;
+          
+    }
+    img:hover{
+        border: 11px solid black;
+        
+        border-radius: 50%;
+       
+        width: 90px;
+        height: 90px;
+      cursor: pointer;
+        object-fit: cover;
+    
+    }
+    .scorecard{
+        width: 82%;
+        height: 150px;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 500;
+       
+       
+    }
+    .score{
+        margin: 20px;
+    }
+    .messege{
+        width: 92%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+}
